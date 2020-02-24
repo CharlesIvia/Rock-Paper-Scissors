@@ -77,7 +77,7 @@
                 createResetBtn();
             }
             else if (aiScore === 5) {
-                createNode("Tou lost the Game", finalResult)
+                createNode("You lost the Game", finalResult)
                 createResetBtn();
             }
         }
