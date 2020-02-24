@@ -90,7 +90,7 @@
 
         function createResetBtn() {
             let b = document.createElement("button");
-            b.appendChild(document.createTextNode("Restart game"));
+            b.appendChild(document.createTextNode("Restart"));
             b.classList.add("btn-hover");
             finalResult.appendChild(b);
             b.addEventListener("click", function(){
