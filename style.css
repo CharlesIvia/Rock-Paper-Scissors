@@ -1,0 +1,28 @@
+html {
+    width: 100%;
+    background-image: radial-gradient();
+}
+
+h1 {
+    color: rgb(219, 29, 29);
+    font-family: cursive;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 5px;
+    border-color: cadetblue;
+}
+
+button:hover {
+    background-color: rgb(219, 29, 29);
+    border: 1px solid rgb(219, 29, 29);
+}
+
+#result-container{
+    color: rgb(58, 44, 182);
+
+}
