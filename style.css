@@ -9,12 +9,13 @@ h1 {
 }
 
 button {
-    width: 80px;
-    height: 30px;
+    width: 90px;
+    height: 40px;
     background-color: aquamarine;
     color: black;
-    border-radius: 5px;
+    border-radius: 20px;
     border-color: cadetblue;
+    font-size: 14px;   
 }
 
 button:hover {
@@ -24,5 +25,4 @@ button:hover {
 
 #result-container{
     color: rgb(58, 44, 182);
-
 }

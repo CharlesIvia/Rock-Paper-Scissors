@@ -25,7 +25,7 @@
             }
             clear();
             getAiOption();
-            showNinjaOption();
+           //showNinjaOption();
             showAiOption();
             showWinner();
             updateScore();
@@ -44,25 +44,25 @@
             aiOption = options[Math.floor(Math.random() * 3)];
         }
 
-        function showNinjaOption (){
-            createNode ("My choice: " + ninjaOption );
-        }
+        //function showNinjaOption (){
+          //  createNode ("My choice: " + ninjaOption );
+        //}
 
         function showAiOption(){
             createNode ("Computers's choice: " + aiOption);
         }
 
         function showWinner(){
-            if (checkWinner() === "tie"){
-                createNode("Result: Draw");
+            if (checkWinner() === "draw"){
+                createNode("Result: Drawn round");
             }
             else if (checkWinner() === "ai"){
                 aiScore += 1;
-                createNode("Result: You lost");
+                createNode("Result: You lost this round");
             }
             else if (checkWinner() === "ninja"){
                 ninjaScore += 1;
-                createNode("Result: You won");
+                createNode("Result: You won this round");
             }
         }
 
@@ -73,11 +73,11 @@
 
         function checkGameWinner() {
             if (ninjaScore === 5){
-                createNode("You Won the Game", finalResult);
+                createNode("You Won the Game :)", finalResult);
                 createResetBtn();
             }
             else if (aiScore === 5) {
-                createNode("You lost the Game", finalResult)
+                createNode("You lost the Game !", finalResult)
                 createResetBtn();
             }
         }
