@@ -1,11 +1,32 @@
 html {
     width: 100%;
     background-image: radial-gradient();
+    background-color: rgb(36, 34, 34);
+}
+
+
+body {
+    box-sizing: border-box;
+    font-family: Lato, Arial, Helvetica, sans-serif;  
+  }  
+
+#container {
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    padding: 3rem;
+    color: white;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    width: 450px;
+    height: 520px;
+    margin-top: 90px;
 }
 
 h1 {
     color: rgb(219, 29, 29);
     font-family: cursive;
+    margin-top: 20px;
 }
 
 button {
