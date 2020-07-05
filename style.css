@@ -10,19 +10,8 @@ body {
 }
 
 #container {
-  background: #12c2e9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #12c2e9; 
+  background: rgb(39, 41, 68);
   border-radius: 20px;
   padding: 3rem;
   color: white;
@@ -30,6 +19,13 @@ body {
   width: 450px;
   height: 520px;
   margin-top: 90px;
+}
+
+.board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0 50px 0;
 }
 
 h1 {
@@ -41,11 +37,10 @@ h1 {
 button {
   width: 90px;
   height: 40px;
-  background-color: aquamarine;
-  color: black;
+  background: rgb(45, 117, 96);
+  color: whitesmoke;
   border-radius: 20px;
-  border-color: cadetblue;
-  border: 0.1px solid cadetblue;
+  border: 0.1px solid rgb(45, 117, 96);
   font-size: 14px;
   outline: none;
 }
@@ -61,5 +56,5 @@ button:hover {
 }
 
 #result-container {
-  color: rgb(58, 44, 182);
+  color: black;
 }
