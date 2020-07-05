@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-	<title>Rock Paper Scissor</title>
-	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <title>Rock Paper Scissor</title>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<center>
-<body>
-	
-	<div id="container">
-		<h1>Rock Paper Scissors Game</h1>
+  <center>
+    <body>
+      <div id="container">
+        <h1>Rock Paper Scissors Game</h1>
 
-		<div class="items">
-			<h3>Your Score</h3>
-			<button id="ninja-score" class="btn-score">0</button>
-		</div>
-		
-		<div class="items">
-			<h3>Computer Score</h3>
-			<button id="ai-score" class="btn-score">0</button>
-		</div>
+        <div class="board">
+          <div class="items">
+            <h3>Your Score</h3>
+            <button id="ninja-score" class="btn-score">0</button>
+          </div>
 
-		<div class="items">
-			<h3>Choose your option</h3>
-			<button class="btn">Rock</button>
-			<button class="btn">Paper</button>
-			<button class="btn">Scissors</button>
-		</div>
+          <div class="items">
+            <h3>Computer Score</h3>
+            <button id="ai-score" class="btn-score">0</button>
+          </div>
+        </div>
+        <div class="items">
+          <h3>Choose your option</h3>
+          <button class="btn">Rock</button>
+          <button class="btn">Paper</button>
+          <button class="btn">Scissors</button>
+        </div>
 
-		<div id="result-container"></div>
-		<div id="final-result"></div>
-	</div>
+        <div id="result-container"></div>
+        <div id="final-result"></div>
+      </div>
 
-	<script type="text/javascript" src="rps.js"></script>
-
-</body>
-
-</center>
+      <script type="text/javascript" src="rps.js"></script>
+    </body>
+  </center>
 </html>
